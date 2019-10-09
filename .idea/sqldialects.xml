@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/D/Servlet1.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/D/Servlet2.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/Servlet/LoginServlet.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/web/backstage.jsp" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/web/frame1.jsp" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/web/post.jsp" dialect="MySQL" />
+  </component>
+</project>
