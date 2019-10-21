@@ -12,7 +12,7 @@
 %>
 <html >
 <head>
-    <script src="images/jquery.min.js"></script>
+    <script src="css/jquery.min.js"></script>
     <script type="text/javascript">
 
     </script>
@@ -53,12 +53,33 @@
         .dowebok :-ms-input-placeholder { font-size: 18px; line-height: 1.4; color: #fff;}
          #register {width: 40%;margin-left:63px;margin-top: 20px}
          #submit {text-align: center;width: 40%;margin-top: 20px}
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 768px) {
             * { box-sizing: border-box; }
-            .dowebok { position: static; width: auto; height: auto; margin: 0 30px; border: 0; border-radius: 0; }
+            .dowebok {width: 70%; height: 70%; margin: 0 20px; border: 0; border-radius: 0;position: absolute;top: 15%;left: 12%;}
+            .logo { margin: 50px auto;}
+            .form-item { width: 100%;}
+            .form-item input,.reg-bar { width: 100%;}
+            .form-item button{ float: left;}
+            #submit{margin-left: 11%;width: 30%;}
+            #register{width: 30%}
+            body{border:  5px solid gold}
+        }
+        @media screen and (max-width: 992px) and (min-width: 768px) {
+            .dowebok { position: absolute; width: 50%; height: 70%; margin: 0 30px; border: 0; border-radius: 0;top: 15%;left: 12%; }
+            .logo { margin: 50px auto; }
+            .form-item { width: 100%; }
+            .form-item input, .form-item button, .reg-bar { width: 100%; float: left;margin: 2%}
+            #submit{margin-left: 11%;width: 30%;}
+            #register{width: 30%}
+            body{border:  5px solid red}
+        }
+        @media screen and (max-width: 1441px) and (min-width: 992px){
+            .dowebok { position: absolute; width: 60%; height: 70%; margin: 0 30px; border: 0; border-radius: 0;top: 17%;left: 25%; }
             .logo { margin: 50px auto; }
             .form-item { width: auto; }
-            .form-item input, .form-item button, .reg-bar { width: 100%; }
+            .form-item input, .form-item button, .reg-bar { width: 100%;  float: left;margin: 2%}
+            .form-item input, .form-item button, .reg-bar { width: 100%;  float: left;margin: 2%}
+            body{border:  5px solid blue}
         }
     </style>
 </head>
